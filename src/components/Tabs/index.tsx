@@ -66,7 +66,7 @@ export function OptionTabs({
         </Tabs.List>
         <div className="flex items-center gap-2 bg-transparentBg rounded-full px-3 py-1 text-transparentText">
           <div className="rounded-full h-2 w-2 bg-green-400" />
-          <span className="text-sm">Copacabana, RJ</span>
+          <span className="text-sm">Killiney, Dublin</span>
         </div>
       </div>
       <Tabs.Content value="tab1">

@@ -19,7 +19,7 @@ const neueMachina = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "La Marine",
+  title: "smca test",
   description: "Daily sea conditions and personalized insights",
 };
 

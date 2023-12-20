@@ -5,8 +5,8 @@ import { parseStormGlassData } from "../../utils/parseData";
 import { OptionTabs } from "@/components/Tabs";
 
 export default async function Home() {
-  const seaResults = getSeaTemperature(-22.980813, -43.186482);
-  const sunResults = getSunData(-22.980813, -43.186482);
+  const seaResults = getSeaTemperature(53.256038, -6.112092);
+  const sunResults = getSunData(53.256038, -6.112092);
   const [sea, sun] = await Promise.all([seaResults, sunResults]);
 
   const parsedHours = parseStormGlassData(sea.hours);
@@ -36,12 +36,12 @@ export default async function Home() {
             />
           </section>
           <footer className="mt-6 text-right text-xs text-transparentText">
-            Designed and built by{" "}
+            {" "}
             <a
               className="text-blackText underline decoration-blackText"
-              href="https://twitter.com/mrncst"
+              href="https://twitter.com/sammcallister"
             >
-              Mariana
+              smca
             </a>
           </footer>
         </div>
